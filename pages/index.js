@@ -1,10 +1,9 @@
 import Link from "next/link";
+import Navbar from "../components/Navbar.js";
 const App = () => {
   return (
     <div>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      <Navbar />
       <h1>Index page</h1>
     </div>
   );
