@@ -1,1 +1,0 @@
-{"name":"next-app","version":"1.0.0","description":"","main":"index.js","scripts":{"dev":"next","buiild":"next build","start":"next start"},"keywords":[],"author":"","license":"ISC","dependencies":{"next":"^9.1.1","react":"^16.10.2","react-dom":"^16.10.2"},"readme":"ERROR: No README data found!","_id":"next-app@1.0.0"}
