@@ -13,7 +13,7 @@ const Post = ({ comments }) => {
 };
 
 Post.getInitialProps = async ({ query }) => {
-  const url = `https://jsonplaceholder.typicode.com/comments?postid=query`;
+  const url = `https://jsonplaceholder.typicode.com/comments?postId=${query.id}`;
   const response = await axios.get(url);
   const { data } = response;
   return { comments: data };

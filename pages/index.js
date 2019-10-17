@@ -9,7 +9,7 @@ const Index = ({ posts }) => {
       {posts.map(post => {
         return (
           <div key={post.id}>
-            <Link href={`/post?id=${post.id}`}>
+            <Link href={`/post?id=${post.id}`} as={`/post/${post.id}`}>
               <h3>{post.title}</h3>
             </Link>
             <p>{post.body}</p>
